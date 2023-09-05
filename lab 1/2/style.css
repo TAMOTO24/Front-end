@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    width: 300px;
+
+    border-bottom: 3px solid rgb(196, 199, 202);
+    border-right: 3px solid rgb(177, 180, 183);
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.error-message, .email-message {
+    color: red;
+    font-weight: bolder;
+}
+p{
+    margin-block: 5px;
+}
+input{
+    width: 240px;
+    height: 30px;
+}
+input:invalid + .error-message::before, .email-message::before{
+    content:"Поле обов'язкове для заповнення";
+}
+input:focus{
+    border: 2px solid #29B0D9;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:hover{
+    border: 2px solid black;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #29B0D9;
+}
+input{
+    border: 2px solid rgb(105, 221, 96);
+    border-radius: 5px;
+}
+input[type="button"]{
+    width: 150px;
+    border: 2px solid rgb(0, 122, 255);
+    background: rgb(0, 122, 255);
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+}
+input[type="button"]:hover{
+    background: rgb(0, 87, 180);
+    border-color: rgb(0, 87, 180);
+}
+input[type="button"]:active{
+    background: rgb(10, 57, 107);
+    border-color: rgb(10, 57, 107);
+}

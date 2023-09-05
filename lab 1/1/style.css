@@ -1,0 +1,24 @@
+input:checked + p{
+    display: block;
+    background-color: rgb(244, 244, 244);
+    color: rgb(51, 51, 51);
+}
+input, p{
+    display: none;
+}
+label{
+    display: block;
+}
+label, p{
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 0;
+    padding-block: 15px;
+    padding-left: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+div{
+    background: rgb(51, 51, 51);
+    width: 500px;
+}
