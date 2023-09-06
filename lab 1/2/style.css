@@ -7,7 +7,7 @@ body{
     padding-bottom: 20px;
     margin: 0 auto;
 }
-.error-message, .email-message {
+.error-message{
     color: red;
     font-weight: bolder;
 }
@@ -18,11 +18,8 @@ input{
     width: 240px;
     height: 30px;
 }
-input:invalid + .error-message::before, .email-message::before{
+input:invalid + .error-message::before{
     content:"Поле обов'язкове для заповнення";
-}
-input:focus{
-    border: 2px solid #29B0D9;
 }
 input:invalid{
     border: 2px solid red;

@@ -1,33 +1,65 @@
-body{
-    width: 200px;
+div{
+    width: 250px;
     background-color: rgb(53, 152, 219);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
+div ul > li > label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+div ul > li ul > li > label {
+    font-weight: bolder;
+    font-style: italic;
+}
+div ul > li ul > li ul > li > label {
+    font-style: italic;
+    font-weight: 1;
+}
+
+/* label:nth-child(1){
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+} */
 ul{
     display: block;
     list-style-type: none;
-    border-left: 4px solid red;
-    border-radius: 10px;
+    border-left: 3px solid red;
+    border-radius: 5px;
     padding-inline: 5px;
     background-color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     transition: 0.5s;
 }
-ul > ul{
+input:checked + label ~ ul {
+    display: none;
+}
+ul ul{
     border-left: 4px solid rgb(245, 196, 104);
+}
+input{
+    display: none;
 }
 li{
     padding-left: 5px;
-    padding-block: 10px;
+    padding-block: 5px;
 }
-ul > ul:hover{
-    background-color: rgb(237, 236, 236);
+ul ul ul:hover{
+    background-color: rgb(216, 215, 215);
 }
-ul > ul > ul:hover{
-    background-color: rgb(218, 218, 218);
+ul ul:hover{
+    background-color: rgb(228, 228, 228);
 }
+
 ul:hover{
     background-color: rgb(243, 242, 242);
 }
-ul > ul > ul{
-    color: red;
+ul:nth-child(1) > li > ul + ul{
+    border-left: 3px solid red;
+}
+div ul:nth-child(2){
+    border: none;
+    background-color: rgb(228, 228, 228);;
 }
