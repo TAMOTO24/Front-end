@@ -1,0 +1,16 @@
+div > div{
+    border: 2px solid rgb(205, 231, 254);
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.block{
+    width: 400px;
+}
+input, textarea{
+    margin-block: 10px;
+    margin-inline: 20px;
+    border: 2px solid rgb(205, 231, 254);
+}
+textarea{
+    height: 35px;
+}

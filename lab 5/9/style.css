@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+}
+table, td{
+    border: 1.5px dotted black;
+}
+div{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+input{
+    margin-right: 15px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    background-color: rgb(164, 188, 230);
+    border: 1px solid rgb(102, 154, 217);
+    background: linear-gradient(to top, rgb(217, 226, 246) ,rgb(164, 188, 230));
+}
+input:active{
+    background: linear-gradient(to top, rgb(196, 204, 222),rgb(139, 160, 196));
+}
+td:nth-child(2){
+    width: 110px;
+}
+td:nth-child(2) > div{
+    margin-left: 5px;
+}
+p{
+    font-weight: bold;
+    color: red;
+}

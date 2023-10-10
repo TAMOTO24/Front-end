@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tusk 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <p>Список товарів</p>
+        <table>
+            <tr>
+                <td><div>Брюки</div></td>
+                <td><input type="button" value="Замовити" name="trousers" onclick="add(this)"></td>
+            </tr>
+            <tr>
+                <td><div>Сорочка</div></td>
+                <td><input type="button" value="Замовити" name="shirt" onclick="add(this)"></td>
+            </tr>
+            <tr>
+                <td><div>Шорти</div></td>
+                <td><input type="button" value="Замовити" name="shorts" onclick="add(this)"></td>
+            </tr>
+            <tr>
+                <td><div>Туфлі</div></td>
+                <td><input type="button" value="Замовити" name="shoes" onclick="add(this)"></td>
+            </tr>
+        </table>
+        <p>Кошик</p>
+        <table>
+            <tr>
+                <td><div>Товар</div></td>
+                <td><div>Кількість</div></td>
+            </tr>
+            <tr>
+                <td><div>Брюки</div></td>
+                <td><div id="trousers">0</div></td>
+            </tr>
+            <tr>
+                <td><div>Сорочка</div></td>
+                <td><div id="shirt">0</div></td>
+            </tr>
+            <tr>
+                <td><div>Шорти</div></td>
+                <td><div id="shorts">0</div></td>
+            </tr>
+            <tr>
+                <td><div>Туфлі</div></td>
+                <td><div id="shoes">0</div></td>
+            </tr>
+        </table>
+        <script src="main.js"></script>
+    </body>
+</html>

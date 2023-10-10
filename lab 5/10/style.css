@@ -1,0 +1,26 @@
+div {
+    width: 330px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.image-container {
+    display: flex;
+    margin: 0 auto;
+}
+#nextButton, #prevButton{
+    margin-block: 34%;
+    border-radius: 20px;
+}
+p{
+    padding: 5px;
+    margin: 0px;
+    font-weight: bolder;
+}

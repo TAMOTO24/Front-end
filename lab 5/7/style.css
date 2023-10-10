@@ -1,0 +1,16 @@
+.block{
+    border: 2px solid rgb(68, 113, 116);
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    background-color: rgb(79, 129, 189);
+}
+output{
+    padding: 5px;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+.flexbox{
+    margin-top: 100px;
+    display: flex;
+}

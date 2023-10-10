@@ -1,0 +1,12 @@
+img{
+    width: 290px;
+    height: 350px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+.action{
+    transform: scale(2);
+    position:static;
+}
