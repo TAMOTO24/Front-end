@@ -1,0 +1,16 @@
+body{
+    background-color: gainsboro;
+}
+table{
+    border-collapse: collapse;
+}
+table, td, div{
+    border: 2px solid black;
+}
+div{
+    padding: 50px;
+    width: 200px;
+}
+td{
+    padding: 20px;
+}

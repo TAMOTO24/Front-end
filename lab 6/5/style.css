@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+}
+table, td{
+    border: 2px solid black;
+}
+div{
+    padding: 50px;
+    width: 200px;
+}
+#colors  td{
+    padding: 20px;
+}
+#canvas, #canvas td{
+    border: 1px solid black;
+}
+#canvas td{
+    padding: 10px;
+}

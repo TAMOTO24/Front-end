@@ -1,0 +1,14 @@
+.flexbox{
+    display: flex;
+}
+ol li {
+    counter-increment: list-counter;
+}
+ol li::before {
+    content: counter(list-counter);
+    margin-right: 5px;
+}
+ol{
+    list-style-type: none;
+    padding: 0px;
+}

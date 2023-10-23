@@ -1,0 +1,23 @@
+.messages, .messages tr{
+    border: 1px solid black;
+}
+.container{
+    width: 500px;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+textarea, input{
+    width: 430px;
+    height: 18px;
+}
+h2{
+    text-align: center;
+}
+table, input[type="button"]{
+    width: 100%;
+}
+#date{
+    text-align: right;
+}

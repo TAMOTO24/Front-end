@@ -1,0 +1,35 @@
+.flexbox{
+    margin: 10px;
+    display: flex;
+}
+button{
+    margin-inline: 5px;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+textarea:not([disabled]) {
+    background-color: white;
+    border: 2px solid orange;
+}
+textarea{
+    overflow-y: hidden; /* Скрытие вертикальной полосы прокрутки */
+    overflow-x: hidden;
+    resize: none;
+    width: 99%;
+    height: 50%;
+}
+textarea[disabled] {
+    background: None;
+    color: black;
+    cursor: not-allowed;
+    border: none;
+}

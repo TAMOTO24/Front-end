@@ -1,0 +1,15 @@
+table td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    width:  11.8%;
+}
+tr:nth-child(1) > td{
+    background-color: gray;
+    color: white;
+}
