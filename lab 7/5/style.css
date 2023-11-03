@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid black;
+    width: 500px;
+}
+.slider{
+    background-color:orange;
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    transition: 0.2s;
+}
+.track{
+    background-color: gainsboro;
+    width: 500px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 50px;
+}
