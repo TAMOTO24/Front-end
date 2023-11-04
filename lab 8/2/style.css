@@ -1,0 +1,35 @@
+.container{
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+}
+.block{
+    background: #937338;
+    padding: 5px;
+    margin-right: 83.5%;
+}
+div{
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 50px;
+}
+.flexbox{
+    display: flex;
+}
+button{
+    border: 1px solid whitesmoke;
+    background: #937338;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    color: whitesmoke;
+    width: 90px;
+    font-family: 'Comfortaa', cursive;
+    margin: 5px;
+}
+.blink{
+    color: gray;
+}
