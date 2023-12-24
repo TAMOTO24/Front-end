@@ -1,0 +1,19 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+.location-info {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
